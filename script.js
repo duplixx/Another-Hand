@@ -23,9 +23,20 @@
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Insert the result data into individual countdown boxes
-    countdownDays.innerHTML = days;    
+    countdownDays.innerHTML = days;
+    // countdownDays.style.border = "5px solid green";
+    // countdownDays.style.borderRadius = "100%";
+    // countdownDays.style.padding= "8px";
+
     countdownHours.innerHTML = hours;
     countdownMinutes.innerHTML = minutes;
     countdownSeconds.innerHTML = seconds;
   }, 1000);
 })();
+
+
+
+
+
+
+
