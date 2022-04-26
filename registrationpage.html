@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register from</title>
+    <style>
+        #social{
+            width: 50px;
+            height: 50px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-left: 32px;
+            padding-right: 32px;
+        }
+        body{
+            background-color: #f4fff2;
+            margin: 0;
+            padding: 16px;
+        }
+        form{
+            /* padding-top: 100px; */
+            text-align: center;
+            background-color: white;
+            width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid #ccc;
+        }
+        #form-input{
+            font-size: 18px;
+            padding-bottom: 12px;
+            margin-bottom: 36px;
+            border-top: 0;border-left: 0;border-right: 0;
+            border-bottom: 1px solid #ccc;
+            width: 100%;
+
+
+        }
+       
+        #input-field{
+            padding-top: 80px;
+            padding-bottom: 40px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        #submit-input{
+            background-color: #046a13;
+            padding-left: 24px;padding-right: 24px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            font-size: 18px;
+            color: white;
+            border: none;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <form id="register-from" method="GET">
+        <div>
+            <img style="height: 200px; " src="/1.png" alt="Another-Hand-logo">
+        </div>
+    <div>
+        <h1 style="font-size: 32px;padding-top: 1px;padding-bottom: 32px;color: black;">Register</h1>
+    </div>
+  
+    <div id="input-field">
+        <input id="form-input" type="name"
+        name="name" placeholder="Name"> <br>
+        <input id="form-input" type="email" name="email" placeholder="Email"> <br>
+        <input id="form-input" type="tel"
+        name="phone" placeholder="Phone Number">
+
+        <!-- <input id="form-input" type="password" name="password" placeholder="Password"> <br> -->
+        <!-- <input type="password" name="Confirm-password" id="form-input" placeholder="Confirm password"> -->
+    </div>
+    <div>
+        <input type="submit" value="Submit" id="submit-input">
+    </div>
+</form>
+</body>
+</html>
